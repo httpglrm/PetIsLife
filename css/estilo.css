@@ -8,8 +8,10 @@
    font-size: 62.5%;
   }
 
-  body{
+  body {
     background-image: url("../images/Patinhas.png");
+    background-color: #F5F5F5;
+    background-attachment: fixed;
     font-family: sans-serif; 
     /* trocar essa fonte, não ficou tão boa */
   }
@@ -26,7 +28,7 @@
   .botoes a {
     margin-right: 10px;
     padding: 5px 10px;
-    background-color: #f2f2f2;
+    background-color: #F0F0F0;
     /* border: 1px solid #ccc; */
     text-decoration: none;
     color: #333;
@@ -38,21 +40,23 @@
   }
   
   .botoes a:hover {
-    background-color: #ddd;
+    background-color: #F8F8F8;
+    color: #d4a487;
+    /* usar essa cor em mais coisas! */
   }
 
   /* Parallax */
     .parallax {
-      background-image: url("../images/feche-o-retrato-no-lindo-gato.jpg");
+      background-image: url("../images/crop-feche-o-retrato-no-lindo-gato.jpg");
     
       /* parallax scrolling effect */
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      
 
-      max-width: 100%;
-      min-height: auto;
+      min-width: 100%;
     }
 
     /* praqq é isso aq???? */
