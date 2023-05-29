@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
-    <title>Loja</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+  <title>Loja</title>
   <style>
     /* Estilos CSS */
     body {
@@ -38,7 +39,7 @@
       max-width: 20%;
       margin-bottom: 10px;
       display: flex;
-      justify-content: center;  
+      justify-content: center;
     }
 
     .product h3 {
@@ -51,78 +52,84 @@
     }
   </style>
 </head>
+
 <body>
-  <div class="container">
-    <h1> Loja de Produtos</h1>
 
-    <div class="product">
-        <img src="imageproducts/PedigreeCarne.jpg" alt="imagem do centro">
-      <h3>Ração Para Cães Pedigree Raças Pequenas Saco 1 kg</h3>
-      <p>Ração Premium 100% completa e balanceada para cães adultos.
-        Receita sem corantes artificiais. Contribui para manter dentes e gengivas saudáveis.
-        Saúde Oral: grãos que ajudam a reduzir a formação do tártaro. Tamanho ideal para a boca de seu cachorro.
-        Proteína de alta qualidade para ajudar seu metabolismo mais acelerado.
-        Com Ômega 6 para pele e pelo saudáveis de seu cachorro.</p>
-      <p>R$ 147,99</p>
-      <button>Comprar</button>
-    </div>
+  <body>
+    <div class="container">
+      <h1>Loja de Produtos</h1>
 
-    <div class="product">
-      <img src="" alt="Produto 2">
-      <h3>Produto 2</h3>
-      <p>Descrição do Produto 2.</p>
-      <p>R$ 29,99</p>
-      <button>Comprar</button>
-    </div>
-
-    
-    <div class="product">
-        <img src="" alt="Whiskas">
-        <h3>Produto 1</h3>
-        <p>Descrição do Produto 1.</p>
-        <p>R$ 19,99</p>
-        <button>Comprar</button>
+      <div class="product">
+        <img src="imageproducts/PedigreeCarne.png.jpg" alt="imagem do centro">
+        <h3>Ração Para Cães Pedigree Raças Pequenas Saco 1 kg</h3>
+        <p>Ração Premium 100% completa e balanceada para cães adultos.
+          Receita sem corantes artificiais. Contribui para manter dentes e gengivas saudáveis.
+          Saúde Oral: grãos que ajudam a reduzir a formação do tártaro. Tamanho ideal para a boca de seu cachorro.
+          Proteína de alta qualidade para ajudar seu metabolismo mais acelerado.
+          Com Ômega 6 para pele e pelo saudáveis de seu cachorro.</p>
+        <p>R$ 147,99</p>
+        <button class="buy-btn">Comprar</button>
       </div>
-    <!-- Adicione mais produtos aqui -->
 
-    
-    <div class="product">
-        <img src="" alt="Whiskas">
-        <h3>Produto 1</h3>
-        <p>Descrição do Produto 1.</p>
-        <p>R$ 19,99</p>
-        <button>Comprar</button>
+
+      <div class="product">
+        <img src="imageproducts/Whiskas.carne.jpg" alt="imagem do centro">
+        <h3>Ração Whiskas Carne Para Gatos Adultos 10,1 kg</h3>
+        <p>Ração Premium 100% completa e balanceada para gatos adultos
+          Receita sem corantes artificiais. Taurina, vitaminas e minerais para os melhores cuidados.
+          Minerais controlados para ajudar a manter um trato urinário saudável.
+          Ômega 6 e Zinco para ajudar a manter pele e pelo do seu gato saudáveis.
+          Com Vitamina A para saúde da visão do seu gatinho</p>
+        <p>R$ 120,90</p>
+        <button class="buy-btn">Comprar</button>
       </div>
+
+
+      <div class="product">
+        <img src="imageproducts/Pedigree Vital filhote.webp" alt="imagem do centro">
+        <h3>Ração Pedigree Filhotes Vital Pro Cães Médios E Grandes 15k</h3>
+        <p> Indicada para cães filhotes;- Ração premium 100% completa e balanceada para cães em crescimento;- Sem
+          corantes artificiais;- Ajuda o sistema imunológico (nutri defense ™);- DHA e prebióticos;- Com antioxidantes;-
+          23 vitaminas e minerais para se manter forte e saudável;- Com cálcio;- Com fibras naturais para ótima
+          digestão;- Proteínas de alta qualidade;- Sabor carne, frango e cereais;Qual a validade do produto? R: Só
+          enviamos para o Full produtos com validade superior a 9 meses, ou seja, a validade é bem longa, podendo
+          comprar sem preocupação.</p>
+        <p>R$ 115,90</p>
+        <button class="buy-btn">Comprar</button>
+      </div>
+
+
+      <div class="product">
+        <img src="imageproducts/Racao seca.png.webp" alt="imagem do centro">
+        <h3></h3>
+        <p>Ração Premium 100% completa e balanceada para cães adultos.
+          Receita sem corantes artificiais. Contribui para manter dentes e gengivas saudáveis.
+          Saúde Oral: grãos que ajudam a reduzir a formação do tártaro. Tamanho ideal para a boca de seu cachorro.
+          Proteína de alta qualidade para ajudar seu metabolismo mais acelerado.
+          Com Ômega 6 para pele e pelo saudáveis de seu cachorro.</p>
+        <p>R$ 147,99</p>
+        <button class="buy-btn">Comprar</button>
+      </div>
+
+      <script>
+       
+        var buyButtons = document.querySelectorAll('.buy-btn');
 
       
-    <div class="product">
-        <img src="images/Whiskas.png" alt="Whiskas">
-        <h3>Produto 1</h3>
-        <p>Descrição do Produto 1.</p>
-        <p>R$ 19,99</p>
-        <button>Comprar</button>
-      </div>
+        function handleBuyButtonClick() {
+         
+          alert('O produto foi adicionado ao carrinho!');
+        }
 
-      
-    <div class="product">
-        <img src="images/Whiskas.png" alt="Whiskas">
-        <h3>Produto 1</h3>
-        <p>Descrição do Produto 1.</p>
-        <p>R$ 19,99</p>
-        <button>Comprar</button>
-      </div>
+       
+        for (var i = 0; i < buyButtons.length; i++) {
+          buyButtons[i].addEventListener('click', handleBuyButtonClick);
+        }
 
-      
-    <div class="product">
-        <img src="images/Whiskas.png" alt="Whiskas">
-        <h3>Produto 1</h3>
-        <p>Descrição do Produto 1.</p>
-        <p>R$ 19,99</p>
-        <button>Comprar</button>
-      </div>
-  </div>
+      </script>
 
-</body>
+  </body>
+
 </html>
 
 <img
