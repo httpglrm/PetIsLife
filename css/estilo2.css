@@ -1,0 +1,56 @@
+/* folha de estilo para as páginas adocao, loja, ong e quemsomos */
+
+* {
+    margin: 0px;
+    border: 10px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    /* trocar essa cor por uma mais escura (e a do footer) */
+    background-color: #e9dad1;
+    padding: 1rem;
+  }
+
+body {
+    background-image: url("../images/Patinhas.png");
+    background-color: #e9e9e9;
+    /* não é a mesma cor do index! */
+    background-attachment: fixed;
+    font-family: sans-serif;
+    /* trocar essa fonte, não ficou tão boa */
+}
+
+
+p {
+    line-height: 1.5;
+    font-size: 2rem;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    text-align: justify;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    font-size: 2.8rem;
+    padding-top: 0.8em;
+    padding-left: 0.7em;
+    padding-bottom: 0.5em;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    /* trocar essa cor por uma mais escura */
+    background-color: #e9dad1;
+}
