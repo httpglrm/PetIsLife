@@ -50,10 +50,21 @@
             text-decoration: underline;
         }
 
-        footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
+       
+
+        #img-animais {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            justify-items: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .img-item img {
+
+            width: 350px;
+            height: 200px;
+            object-fit: cover;
         }
     </style>
 </head>
@@ -128,8 +139,14 @@
             </tbody>
         </table>
     </div>
-
-
+    <br><br>
+    <div id="img-animais">
+        <div class="img-item"><img src="../images/yorksauro.jpg"></div>
+        <div class="img-item"><img src="../images/lulu.jpg"></div>
+        <div class="img-item"><img src="../images/golden.jpg"></div>
+        <div class="img-item"><img src="../images/border.jpg"></div>
+    </div>
+<br><br>
     <footer>
         <br><br>
         <a href="../index.html">Voltar</a>
