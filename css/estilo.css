@@ -42,7 +42,7 @@ header {
 .botoes a:hover {
   background-color: #F8F8F8;
   color: #d4a487;
-  /* usar essa cor em mais coisas! */
+
 }
 
 /* Parallax */
@@ -59,7 +59,7 @@ header {
   min-width: 100%;
 }
 
-/* praqq é isso aq???? */
+
 .parallax h1 {
   text-align: center;
   padding-top: 200px;
@@ -118,6 +118,17 @@ h3 {
 
 footer {
   text-align: center;
-  /* trocar essa cor por uma mais escura */
+  padding: 5px;
   background-color: #e9dad1;
+  justify-content: center;
+}
+#insta {
+  width: 100px;
+  height: 100px;
+  
+}
+#voltaTop {
+  margin: 1px;
+  display: flex;
+  flex-direction: column; 
 }

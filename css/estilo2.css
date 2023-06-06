@@ -13,6 +13,7 @@ header {
     /* trocar essa cor por uma mais escura (e a do footer) */
     background-color: #e9dad1;
     padding: 1rem;
+    content: center;
   }
 
 body {

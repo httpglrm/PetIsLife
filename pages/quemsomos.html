@@ -9,73 +9,108 @@
     <title>Quem Somos</title>
     <link rel="stylesheet" href="../css/estilo2.css">
     <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
 
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            border-radius: 0.7em;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .back {
+            display: inline-flex;
+        }
+
+        h1 {
+            display: inline-flex;
+
+        }
+
+        .titulo {
+            background-color: #fff;
+            border-radius: 0.7em;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+
+        }
+        .Foto{
+            width: 200px;
+            height: 200px;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Quem Somos</h1>
+    <header>
+        <div id="titulo">
+            <a class="back" href="../index.html"><img src="../images/back.png" alt="Botão voltar"></a>
+            <h1>Quem Somos</h1>
+        </div>
 
-    <p>Somos uma equipe apaixonada e dedicada, comprometida em oferecer os melhores serviços aos nossos clientes.
-        Combinamos experiência, criatividade e expertise para alcançar resultados excepcionais.</p>
-    <p>Conheça nossa equipe:</p>
-    <ul>
-        <li>
-            <h3>Anna Luiza</h3>
-            <p>Cargo: Diretor de Operações</p>
-            <img src="" alt="Equipe da nossa empresa">
-        </li>
-        <li>
-            <h3>Guilherme</h3>
-            <p>Cargo: Gerente de Marketing</p>
-            <img src="" alt="Equipe da nossa empresa">
-        </li>
-        <li>
-            <h3>Lucas Bagno</h3>
-            <p>Cargo: Designer de UI/UX</p>
-            <img src="" alt="Equipe da nossa empresa">
-        </li>
-        <li>
-            <h3>Lucas Duarte</h3>
-            <p>Cargo: Desenvolvedora Front-end</p>
-            <img src="" alt="Equipe da nossa empresa">
-        </li>
-        <li>
-            <h3>Juan</h3>
-            <p>Cargo: Analista de Dados</p>
-            <img src="" alt="Equipe da nossa empresa">
-        </li>
-    </ul>
-    <p>Estamos comprometidos em oferecer soluções inovadoras e atender às necessidades dos nossos clientes de maneira
-        eficiente. Valorizamos a colaboração e a excelência em tudo o que fazemos.</p>
-    <p>Entre em contato conosco para saber mais sobre como podemos ajudar a sua empresa a alcançar o sucesso.</p>
+    </header>
+    <div class="container">
+        <div class="product">
+
+            <p>Somos uma equipe apaixonada e dedicada, comprometida em oferecer os melhores serviços aos nossos
+                clientes.
+                Combinamos experiência, criatividade e expertise para alcançar resultados excepcionais.</p>
+            <p>Conheça nossa equipe:</p>
+
+                <ul>
+                    <li>
+                        <h3>Anna Luiza</h3>
+                        <p>Cargo: Desenvolvedor Front-end</p>
+                        <img class="Foto" src="../images/Anna.jpg" alt="Equipe da nossa empresa">
+                    </li>
+                    <li>
+                        <h3>Guilherme</h3>
+                        <p>Cargo: Desenvolvedor Front-end</p>
+                        <img class="Foto" src="../images/Guilherme.jpg" alt="Equipe da nossa empresa">
+                    </li>
+                    <li>
+                        <h3>Lucas Bagno</h3>
+                        <p>Cargo: Desenvolvedor Front-end</p>
+                        <img class="Foto" src="../images/Lucas B.png" alt="Equipe da nossa empresa">
+                    </li>
+                    <li>
+                        <h3>Lucas Duarte</h3>
+                        <p>Cargo: Redator</p>
+                        <img class="Foto" src="../images/Lucas D.jpg" alt="Equipe da nossa empresa">
+                    </li>
+                    <li>
+                        <h3>Juan</h3>
+                        <p>Cargo: Analista de sistemas</p>
+                        <img class="Foto" src="../images/ian.jpg" alt="Equipe da nossa empresa">
+                    </li>
+
+                    <li>
+                        <h3>Danilo</h3>
+                        <p>Cargo: Analista de Sistemas</p>
+                        <img class="Foto" src="../images/Pato tímido 👉👈.jpg" alt="Equipe da nossa empresa">
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="container">
+                <div class="product">
+                    <p>Estamos comprometidos em oferecer soluções inovadoras e atender às necessidades dos nossos
+                        clientes de maneira
+                        eficiente. Valorizamos a colaboração e a excelência em tudo o que fazemos.</p>
+                    <p>Entre em contato conosco para saber mais sobre como podemos ajudar a sua empresa a alcançar o
+                        sucesso.</p>
 </body>
 
 </html>
-
-<!--     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            padding: 20px;
-            font-size: 1rem;
-            background-image: url("../images/Patinhas.png");
-        }
-
-        .daniel {
-        background-color: #e9dad1;
-        display: table;
-        margin-left: auto;
-        margin-right: auto;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="card p-3 m-2 daniel">
-    <section class="right">
-        <h2>Quem somos:</h2>
-        <p>A PetIslife, é um pet shop que oferece serviços completos para os animais de estimação, trabalhamos com competência para suprir as nescessidades do seu bichinho. Nossa loja oferecer os melhores produtos do mercado, desde as melhores rações, até os melhores sachês. Contamos com parcerias de diversas ONGs de ajuda para animais, também possuindo diversas localizações disponíveis para a adoção de um peludinho.</p>
-        <a href="../index.html"><button class="btn btn-success mt-3">Voltar</button></a>
-    </section>
-</div> -->
