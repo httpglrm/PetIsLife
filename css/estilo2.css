@@ -14,7 +14,7 @@ header {
     background-color: #e9dad1;
     padding: 1rem;
     content: center;
-  }
+}
 
 body {
     background-image: url("../images/Patinhas.png");
@@ -50,8 +50,42 @@ h1 {
     color: #333;
 }
 
+
 footer {
     text-align: center;
-    /* trocar essa cor por uma mais escura */
+    padding: 5px;
     background-color: #e9dad1;
+    justify-content: center;
+  }
+
+.caixa {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    /* border: 2px solid #ccc; */
+    border-radius: 0.7em;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: #e9dad1;
+    color: #333;
 }
+
+a {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #F0F0F0;
+    /* border: 1px solid #ccc; */
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border-radius: 1rem;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: 1.7rem;
+}
+
+a:hover {
+    background-color: #F8F8F8;
+    color: #d4a487;
+}
+

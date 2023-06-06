@@ -8,6 +8,11 @@ html {
   font-size: 62.5%;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   background-image: url("../images/Patinhas.png");
   background-color: #F5F5F5;
@@ -118,17 +123,16 @@ h3 {
 
 footer {
   text-align: center;
-  padding: 5px;
   background-color: #e9dad1;
   justify-content: center;
 }
+
 #insta {
   width: 100px;
   height: 100px;
-  
 }
+
 #voltaTop {
   margin: 1px;
-  display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }

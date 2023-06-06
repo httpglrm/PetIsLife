@@ -11,14 +11,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
             font-size: 1.5rem;
-        }
-
-        h1 {
-            color: #333;
-            text-align: center;
-            margin-bottom: 20px;
         }
 
         table {
@@ -26,16 +19,17 @@
             border-collapse: collapse;
             margin-top: 20px;
             background-color: #f2f2f2;
-            border: 2px solid #d4a487;;
+            border: 2px solid #d4a487;
         }
 
-        th, td {
+        th,
+        td {
             padding: 10px;
             text-align: left;
         }
 
         th {
-            background-color: #d4a487;;
+            background-color: #d4a487;
             color: #fff;
         }
 
@@ -47,82 +41,103 @@
             background-color: #e0e0e0;
         }
 
-        a {
+        .table a {
             color: #337ab7;
             text-decoration: none;
         }
 
-        a:hover {
+        .table a:hover {
             text-decoration: underline;
         }
-   
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 
 
 <body>
+
     <header>
-        <a class="back" href="../index.html"><img src="../images/back.png" alt="Botão voltar"></a>
-        <h1>Quem Somos</h1>
+        <h1>ONGs em Minas Gerais</h1>
     </header>
-    
-    <table>
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Descrição</th>
-                <th>Contato</th>
-                <th>Website</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Associação Quatro Patinhas</td>
-                <td>Resgate e adoção de cães e gatos</td>
-                <td>(31) 3357-1709</td>
-                <td><a href="https://www.associacaoquatropatinhas.com.br" target="_blank">https://www.associacaoquatropatinhas.com.br</a></td>
-            </tr>
-            <tr>
-                <td>ONG Patas Therapeutas</td>
-                <td>Terapia assistida por animais</td>
-                <td>(31) 98880-9000</td>
-                <td><a href="https://www.patatherapeuta.org.br" target="_blank">https://www.patatherapeuta.org.br</a></td>
-            </tr>
-            <tr>
-                <td>ONG Coração Animal</td>
-                <td>Resgate, tratamento e adoção de animais abandonados</td>
-                <td>(31) 3492-3483</td>
-                <td><a href="https://www.coracaoanimal.com.br" target="_blank">https://www.coracaoanimal.com.br</a></td>
-            </tr>
-            <tr>
-                <td>GAAAL - Grupo de Apoio aos Animais de Rua e de Lar Temporário</td>
-                <td>Proteção animal e resgate de animais em situação de risco</td>
-                <td>(31) 99792-1224</td>
-                <td><a href="https://www.gaaal.com.br" target="_blank">https://www.gaaal.com.br</a></td>
-            </tr>
-            <tr>
-                <td>Grupo Entre Pegadas</td>
-                <td>Adoção de animais resgatados e conscientização sobre a causa animal</td>
-                <td>(31) 98433-1013</td>
-                <td><a href="https://www.entrepagadas.org.br" target="_blank">https://www.entrepagadas.org.br</a></td>
-            </tr>
-            <tr>
-                <td>Associação Mineira de Defesa dos Animais (AMDA)</td>
-                <td>Defesa e proteção dos animais</td>
-                <td>(31) 3223-7416</td>
-                <td><a href="https://www.amda.org.br" target="_blank">https://www.amda.org.br</a></td>
-            </tr>
-            <tr>
-                <td>ONG Patas Carentes</td>
-                <td>Resgate, tratamento e adoção de animais abandonados</td>
-                <td>(31) 99126-8939</td>
-                <td><a href="https://www.patacarente.org.br" target="_blank">https://www.patacarente.org.br</a></td>
-            </tr>
-           
+
+    <div class="caixa">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                    <th>Contato</th>
+                    <th>Website</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Associação Quatro Patinhas</td>
+                    <td>Resgate e adoção de cães e gatos</td>
+                    <td>(31) 3357-1709</td>
+                    <td><a href="https://www.associacaoquatropatinhas.com.br" target="_blank"
+                            class="table">https://www.associacaoquatropatinhas.com.br</a></td>
+                </tr>
+                <tr>
+                    <td>ONG Patas Therapeutas</td>
+                    <td>Terapia assistida por animais</td>
+                    <td>(31) 98880-9000</td>
+                    <td><a href="https://www.patatherapeuta.org.br" target="_blank"
+                            class="table">https://www.patatherapeuta.org.br</a></td>
+                </tr>
+                <tr>
+                    <td>ONG Coração Animal</td>
+                    <td>Resgate, tratamento e adoção de animais abandonados</td>
+                    <td>(31) 3492-3483</td>
+                    <td><a href="https://www.coracaoanimal.com.br" target="_blank"
+                            class="table">https://www.coracaoanimal.com.br</a></td>
+                </tr>
+                <tr>
+                    <td>GAAAL - Grupo de Apoio aos Animais de Rua e de Lar Temporário</td>
+                    <td>Proteção animal e resgate de animais em situação de risco</td>
+                    <td>(31) 99792-1224</td>
+                    <td><a href="https://www.gaaal.com.br" target="_blank" class="table">https://www.gaaal.com.br</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Grupo Entre Pegadas</td>
+                    <td>Adoção de animais resgatados e conscientização sobre a causa animal</td>
+                    <td>(31) 98433-1013</td>
+                    <td><a href="https://www.entrepagadas.org.br" target="_blank"
+                            class="table">https://www.entrepagadas.org.br</a></td>
+                </tr>
+                <tr>
+                    <td>Associação Mineira de Defesa dos Animais (AMDA)</td>
+                    <td>Defesa e proteção dos animais</td>
+                    <td>(31) 3223-7416</td>
+                    <td><a href="https://www.amda.org.br" target="_blank" class="table">https://www.amda.org.br</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>ONG Patas Carentes</td>
+                    <td>Resgate, tratamento e adoção de animais abandonados</td>
+                    <td>(31) 99126-8939</td>
+                    <td><a href="https://www.patacarente.org.br" target="_blank"
+                            class="table">https://www.patacarente.org.br</a></td>
+                </tr>
             </tbody>
-            
-            
+        </table>
+    </div>
+
+
+    <footer>
+        <br><br>
+        <a href="../index.html">Voltar</a>
+        <br><br><br>
+    </footer>
+
 </body>
+
 </html>
 
 <!-- 
